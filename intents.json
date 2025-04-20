@@ -1,0 +1,105 @@
+{
+    "intents": [
+      {
+        "tag": "mrec_mission",
+        "patterns": [
+          "What is the mission of MREC (A)?"
+        ],
+        "responses": [
+          "MREC (A) aims to equip engineering students to become industry-ready by organizing seminars, workshops, and mentoring sessions."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "mrec_director",
+        "patterns": [
+          "Who is the Director of MREC (A)?"
+        ],
+        "responses": [
+          "Dr. A. Ramaswami Reddy is the Director and Principal of MREC (A)."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "mrec_awards",
+        "patterns": [
+          "What awards has MREC (A) received?"
+        ],
+        "responses": [
+          "MREC (A) has received the LINACSE Best Reviewer Award in 2019-2020 and 2020-2021. Dr. S. Radhakrishnan also received the Bharat Shiksha Award."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "mrec_highlights",
+        "patterns": [
+          "What are the highlights of MREC (A)?"
+        ],
+        "responses": [
+          "The institution is accredited by NBA and NAAC, has over 250 campus recruiters, MoUs with reputed institutions, and is ranked as the Best Engineering College in South India."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "ds_established",
+        "patterns": [
+          "When was the CSE (Data Science) department established?"
+        ],
+        "responses": [
+          "The CSE (Data Science) department was established in 2021 under the guidelines of JNTUH and AICTE."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "ds_highlights",
+        "patterns": [
+          "What are the highlights of the CSE (Data Science) department?"
+        ],
+        "responses": [
+          "It features research-oriented faculty, strong industry collaborations, excellent placement records, and alumni working at top companies like IBM and Microsoft."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "ds_hod",
+        "patterns": [
+          "Who is the head of the CSE (Data Science) department?"
+        ],
+        "responses": [
+          "Dr. S. Shiva Prasad is the Professor and Head of the Department for Data Science."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "student_development",
+        "patterns": [
+          "How does MREC (A) support student development?"
+        ],
+        "responses": [
+          "The college supports students through seminars, focus groups, one-on-one mentoring, and active student development centers."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "ds_industry_connections",
+        "patterns": [
+          "What industry connections does the CSE department have?"
+        ],
+        "responses": [
+          "The department maintains strong ties with companies like IBM, Microsoft, and Oracle, and emphasizes hands-on programming experience."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "mrec_accreditation",
+        "patterns": [
+          "Is MREC (A) accredited?"
+        ],
+        "responses": [
+          "Yes, it is accredited by both NBA and NAAC."
+        ],
+        "context_set": ""
+      }
+    ]
+  }
+  
