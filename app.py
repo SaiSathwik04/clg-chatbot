@@ -10,8 +10,10 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import TreebankWordTokenizer
 from tensorflow.keras.models import load_model
 
-nltk.download("punkt")
-nltk.download("wordnet")
+nltk.data.path.append("/opt/render/nltk_data")
+nltk.download("punkt", download_dir="/opt/render/nltk_data")
+nltk.download("wordnet", download_dir="/opt/render/nltk_data")
+nltk.download("omw-1.4", download_dir="/opt/render/nltk_data")
 
 app = Flask(__name__, static_folder="static", static_url_path="")
 CORS(app)
